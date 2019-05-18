@@ -1,0 +1,27 @@
+
+/* 个人主页、设置 */
+.menu2{
+	width:150px;
+	position: absolute;
+	left: 0px; 
+	top: 80px; 
+	z-index: 998;
+	display: none;
+}
+
+.menu2 .list2{
+	width:100%;
+}
+
+#menu2 li a{
+	color:#1ba784;
+}
+
+#menu2 li a:hover{
+	color:#233e36;
+}
+
+.menu1:hover .menu2{
+	display: block;
+}
+
